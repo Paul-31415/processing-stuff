@@ -1,0 +1,33 @@
+"Version"="-1"
+
+"comment (ignored by reader unless this field is reff'ed by name"="
+strings can contain newlines,
+names are strings,
+...
+this format should still work if all whitespace outside strings is deleted.
+
+
+
+"
+
+
+"foo"="foo"(
+  "arg1":@"foo"
+  "arg2":@"bar"
+  "arg3":
+    "baz"="Point"(
+      "x":"144.2333333333"
+      "w":"three"="3"
+      "z":"-23.3"
+   )
+  "anomArg":"v1d"("value":@"three")
+)
+"bar"=@"baz"
+"different" = "baz"
+"it is the string \"baz\", not the Point"=
+"escape character \\ is like normal ascii escape"
+
+@"baz"("y":"0")
+
+"you can change stuff afterwards also"=
+"but you need to be able to ref it"
